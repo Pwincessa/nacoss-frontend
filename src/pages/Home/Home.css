@@ -1,0 +1,26 @@
+.statement {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 123.19%;
+}
+
+.mission-statement {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 41px;
+  font-style: normal;
+}
+
+.mission-learn-btn {
+  border: 2px solid #790c5a;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-line {
+  border-bottom: 3px solid #790c5a;
+}

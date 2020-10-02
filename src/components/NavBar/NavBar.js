@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -25,29 +25,29 @@ const NavBar = () => {
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav nav">
             <li class="nav-item active spacing">
-              <Link class="nav-link  nav-link-text" activeClassName="current" to="/">
+              <NavLink className="nav-link  nav-link-text" activeClassName="current" to="/">
                 HOME
-              </Link>
+              </NavLink>
             </li>
             <li class="nav-item spacing">
-              <Link class="nav-link nav-link-text" activeClassName="current" to="#">
+              <NavLink className="nav-link nav-link-text" activeClassName="current" to="/about">
                 ABOUT
-              </Link>
+              </NavLink>
             </li>
             <li class="nav-item spacing">
-              <Link class="nav-link nav-link-text" activeClassName="current" to="#">
+              <NavLink className="nav-link nav-link-text" activeClassName="current" to="/event">
                 EVENT
-              </Link>
+              </NavLink>
             </li>
             <li class="nav-item spacing">
-              <Link class="nav-link nav-link-text" activeClassName="current" to="#">
+              <NavLink className="nav-link nav-link-text" activeClassName="current" to="/register">
                 REGISTRATION
-              </Link>
+              </NavLink>
             </li>
             <li class="nav-item spacing">
-              <Link class="nav-link nav-link-text" activeClassName="current" to="#">
+              <NavLink className="nav-link nav-link-text" activeClassName="current" to="/payment">
                 PAYMENT
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

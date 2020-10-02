@@ -23,7 +23,7 @@
 }
 
 .current {
-  border-bottom: 1px solid #790c5a;
+  border-bottom: 2px solid #790c5a;
 }
 
 @media (max-width: 576px) {

@@ -17,3 +17,24 @@
   margin-top: 30%;
   width: 45rem;
 }
+
+@media (max-width: 576px) {
+  .header-banner {
+    width: 100vw;
+    height: 44vh;
+    background-image: url("../../assets/images/homepagebanner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero-text {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 123.19%;
+    text-align: center;
+    margin-top: 40%;
+    width: 45rem;
+  }
+}
