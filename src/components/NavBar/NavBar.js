@@ -5,8 +5,8 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <>
-      <nav className="top-navigation navbar navbar-expand-lg navbar-light">
-        <Link class="navbar-brand" to="#" style={{ marginLeft: "100px" }}>
+      <nav className="top-navigation navbar navbar-expand-lg navbar-light ">
+        <Link class="navbar-brand" to="#" id="logo-text">
           <h2 id="naccoss_text">
             NACOSS <br /> <span style={{ color: "#ac0d7f" }}>UNIBEN</span>
           </h2>
@@ -29,7 +29,7 @@ const NavBar = () => {
                 HOME
               </Link>
             </li>
-            <li class="nav-item spacing ">
+            <li class="nav-item spacing">
               <Link class="nav-link nav-link-text" activeClassName="current" to="#">
                 ABOUT
               </Link>
