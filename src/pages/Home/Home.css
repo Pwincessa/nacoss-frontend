@@ -13,14 +13,31 @@
   font-style: normal;
 }
 
-.mission-learn-btn {
-  border: 2px solid #790c5a;
-  background-color: white;
-  color: black;
-  margin: 0;
-  padding: 0;
+.btn-color {
+  border-color: #790c5a !important;
+  color: #790c5a !important;
+  background-color: white !important;
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal;
+  font-size: 25px !important;
+  font-weight: 300;
 }
 
 .bottom-line {
   border-bottom: 3px solid #790c5a;
+  width: 153px;
+  margin-left: -2px;
+}
+
+.short-bottom-line {
+  border-bottom: 3px solid #790c5a;
+  width: 41px;
+}
+
+#event-header-text {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 36.96px;
 }
