@@ -8,6 +8,7 @@ import girl1 from "@/assets/images/girl1.png";
 import man2 from "@/assets/images/man2.png";
 import long_img from "@/assets/images/long_image.png";
 import quoteImg from "@/assets/images/quoteimg.png";
+import Footer from "@/components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -134,6 +135,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
