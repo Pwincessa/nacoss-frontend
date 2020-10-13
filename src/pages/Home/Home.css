@@ -41,3 +41,33 @@
   font-style: normal;
   line-height: 36.96px;
 }
+
+#banner {
+  width: auto;
+  height: 84vh;
+  background-image: url("../../assets/images/quotebackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#img-postion {
+  margin-top: 10% !important;
+}
+
+#text-position-1 {
+  font-size: 28px;
+  line-height: 35px;
+}
+
+#text-position-2 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.text-position {
+  font-family: "Merriweather" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #ffffff;
+  margin-top: 1%;
+}
