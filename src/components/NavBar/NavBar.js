@@ -1,16 +1,20 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./NavBar.css";
+import logo from "@/assets/icons/footerlogo.svg";
 
 const NavBar = () => {
   return (
     <>
       <nav className="top-navigation navbar navbar-expand-lg navbar-light ">
+        <img src={logo} alt="nacoss logo" />
         <Link class="navbar-brand" to="#" id="logo-text">
-          <h2 id="naccoss_text">
-            NACOSS <br /> <span style={{ color: "#ac0d7f" }}>UNIBEN</span>
-          </h2>
+          <h4 id="naccoss_text">
+           <span class="coloured-text">UNIBEN <br />NACOSS</span>
+          </h4>
         </Link>
+        
+
         <button
           class="navbar-toggler"
           type="button"

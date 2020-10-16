@@ -34,7 +34,7 @@
 }
 .index-link ul li a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   display: block;
   padding: 5px 0;
@@ -48,7 +48,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 23px;
 
   color: #ffffff;
@@ -58,7 +58,7 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
   line-height: 27px !important;
   color: #ffffff;
 }
@@ -78,8 +78,24 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
 
   color: #ffffff;
+}
+#text{
+  color: #fff;
+  margin-left: 30%;
+  margin-top: -20%;
+}
+@media (max-width: 576px) {
+  #text{
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 0%;
+  }
+  img {
+    margin-left: 0px;
+    padding: 0px;
+  }
 }
