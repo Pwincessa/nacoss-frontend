@@ -11,9 +11,9 @@ function Footer() {
               <div class="link-area">
                 <div className="pt-5 pb-4">
                   {" "}
-                  <img src={logo} alt="r" />{" "}
-                  <h2 id="naccoss_text">
-                    NACOSS <br /> <span>UNIBEN</span>
+                  <img src={logo} alt="nacoss logo" />{" "}
+                  <h2 id="text">
+                   <span> NACOSS <br />UNIBEN</span>
                   </h2>
                 </div>
 
