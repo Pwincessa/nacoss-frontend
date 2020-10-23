@@ -18,6 +18,13 @@
   width: 50rem;
 }
 
+.img-header-banner {
+  width: auto;
+  height: 54vh;
+  background-image: url("../../assets/images/aboutbanner.png");
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 576px) {
   .header-banner {
     width: 100vw;
@@ -37,5 +44,11 @@
     margin-top: 40%;
     width: 45rem;
   }
+  .img-header-banner {
+    width: 100vw;
+    height: 44vh;
+    background-image: url("../../assets/images/aboutbanner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
-/*# sourceMappingURL=Header.css.map */

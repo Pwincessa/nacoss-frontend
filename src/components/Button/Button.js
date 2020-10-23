@@ -1,6 +1,6 @@
 import React from "react";
 import "./Button.css";
-const Button = ({text}) => {
+export default function Button({ text }) {
   return (
     <>
       <button type="button" class="btn btn-primary btn-style btn-lg">
@@ -8,6 +8,14 @@ const Button = ({text}) => {
       </button>
     </>
   );
-};
+}
 
-export default Button;
+export const ColoredButton = ({ text }) => {
+  return (
+    <>
+      <button type="button" class="btn btn-primary btn-lg btn-style colored-btn-style">
+        {text}
+      </button>
+    </>
+  );
+};
