@@ -1,7 +1,8 @@
-import Button, { ColoredButton } from "@/components/Button/Button";
+import React from "react";
+import { ColoredButton } from "@/components/Button/Button";
 import Footer from "@/components/Footer/Footer";
 import { ImgHeader } from "@/components/Header/Header";
-import React from "react";
+import dartboard from "@/assets/images/dartboard.svg"
 import "./About.css";
 
 const About = () => {
@@ -63,7 +64,10 @@ const About = () => {
       {/* section-4 */}
       <div className="container mt-5">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 "> left</div>
+          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+            {" "}
+            <img alt="dart" class="img-fluid" id="img-space" src={dartboard} />
+          </div>
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
             <h3 className="text-general-style mt-5">Our Aims and Objectives...</h3>
 

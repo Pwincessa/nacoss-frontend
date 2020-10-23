@@ -53,6 +53,10 @@
   background-color: #790c5a;
 }
 
+#img-space {
+  margin-top: 20%;
+}
+
 @media (max-width: 576px) {
   .text-general-style {
     font-family: "Roboto";
