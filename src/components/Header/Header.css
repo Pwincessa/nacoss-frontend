@@ -23,6 +23,7 @@
   height: 54vh;
   background-image: url("../../assets/images/aboutbanner.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 576px) {
@@ -52,3 +53,4 @@
     background-position: center;
   }
 }
+/*# sourceMappingURL=Header.css.map */
