@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "@/components/Header/Header";
-import cycle from "@/assets/images/cycle.svg";
+import Header from "../../components/Header/Header";
+import cycle from "../../assets/images/cycle.svg";
 import "./Home.css";
 import { cardDetails } from "./data";
-import Button from "@/components/Button/Button";
-import girl1 from "@/assets/images/girl1.png";
-import man2 from "@/assets/images/man2.png";
-import long_img from "@/assets/images/long_image.png";
-import quoteImg from "@/assets/images/quoteimg.png";
-import Footer from "@/components/Footer/Footer";
+import Button from "../../components/Button/Button";
+import girl1 from "../../assets/images/girl1.png";
+import man2 from "../../assets/images/man2.png";
+import long_img from "../../assets/images/long_image.png";
+import quoteImg from "../../assets/images/quoteimg.png";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
