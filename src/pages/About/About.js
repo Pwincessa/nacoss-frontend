@@ -1,8 +1,8 @@
 import React from "react";
-import { ColoredButton } from "@/components/Button/Button";
-import Footer from "@/components/Footer/Footer";
-import { ImgHeader } from "@/components/Header/Header";
-import dartboard from "@/assets/images/dartboard.svg"
+import { ColoredButton } from "../../components/Button/Button";
+import Footer from "../../components/Footer/Footer";
+import { ImgHeader } from "../../components/Header/Header";
+import dartboard from "../../assets/images/dartboard.svg"
 import "./About.css";
 
 const About = () => {
