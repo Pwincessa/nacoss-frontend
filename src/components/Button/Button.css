@@ -9,9 +9,12 @@
   line-height: 25px;
   text-align: center !important;
   border-radius: 10px !important;
+  padding: 10px;
+  margin: 50px 0px 50px 0px;
 }
 
 .colored-btn-style {
   background-color: #790c5a !important;
   color: #ffffff !important;
 }
+/*# sourceMappingURL=Button.css.map */

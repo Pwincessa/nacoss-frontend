@@ -43,6 +43,7 @@ const About = () => {
         <div className="container pt-5 pb-5">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+            <h4 className="text-general-style about-text-color mt-5">Mission and Vision Statement</h4>
               <p className="about-section-text about-text-color">
                 Through consistent and professional exposure, NACOSS provides an excellent foundation for
                 Computer Scientists, Engineers and any IT related disciplines in Nigeria. Over the years,
@@ -84,10 +85,10 @@ const About = () => {
       <div className="container mt-5">
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3 className="d-flex justify-content-center text-wrap text-center mt-5 text-general-style">
+            <h4 className="d-flex justify-content-center text-wrap text-center mt-5 text-general-style">
               Want to join the movement? <br />
               Sign up today and become a member!
-            </h3>
+            </h4>
             <div className="d-flex justify-content-center mt-4 mb-5">
               <ColoredButton text="Register Now" />
             </div>
