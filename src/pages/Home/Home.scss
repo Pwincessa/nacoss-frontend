@@ -1,0 +1,83 @@
+
+.statement {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 123.19%;
+}
+.mission-statement {
+  margin-top: 20%;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 31px;
+  font-style: normal;
+}
+
+.card{
+  border-radius: 20px;
+}
+
+
+.btn-color {
+  border-color: #790c5a !important;
+  color: #790c5a !important;
+  background-color: white !important;
+  font-family: "Roboto", sans-serif !important;
+  font-style: normal;
+  font-size: 18px !important;
+  font-weight: 300;
+}
+
+.bottom-line {
+  border-bottom: 3px solid #790c5a;
+  width: 153px;
+  margin-left: -2px;
+}
+.short-bottom-line {
+  border-bottom: 3px solid #790c5a;
+  width: 41px;
+}
+
+#event-header-text {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 36.96px;
+}
+
+#banner {
+  width: auto;
+  height: 84vh;
+  background-image: url("../../assets/images/quotebackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#img-postion {
+  margin-top: 10% !important;
+  padding-right: 0px;
+}
+
+img{
+  margin-left: 0px !important;
+}
+
+#text-position-1 {
+  font-size: 28px;
+  line-height: 35px;
+}
+
+#text-position-2 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.text-position {
+  font-family: "Merriweather" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #ffffff;
+  margin-top: 1%;
+}

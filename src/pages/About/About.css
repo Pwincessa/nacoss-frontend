@@ -1,0 +1,86 @@
+#about-header-text {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 36.96px;
+}
+
+.short-bottom-line {
+  border-bottom: 3px solid #790c5a;
+  width: 41px;
+}
+
+#about-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.about-section-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40.26px;
+  color: #000000;
+}
+
+.text-general-style {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 30%;
+}
+
+.bg-color {
+  background-color: #790c5a;
+}
+
+.about-text-color {
+  color: #ffffff;
+}
+
+#mission-section-statement {
+  margin-left: 20%;
+}
+
+#btn-color {
+  background-color: #790c5a;
+}
+
+#img-space {
+  margin-top: 20%;
+}
+
+@media (max-width: 576px) {
+  .text-general-style {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 0%;
+    padding-bottom: 5%;
+  }
+  #about-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 35px;
+  }
+  .about-section-text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 123.19%;
+    color: #000000;
+  }
+}
+/*# sourceMappingURL=About.css.map */

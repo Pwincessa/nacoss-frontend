@@ -1,0 +1,56 @@
+.header-banner {
+  width: auto;
+  height: 84vh;
+  background-image: url("../../assets/images/homepagebanner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-text {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 123.19%;
+  text-align: center;
+  margin-top: 20%;
+  width: 50rem;
+}
+.img-header-banner {
+  width: auto;
+  height: 54vh;
+  background-image: url("../../assets/images/aboutbanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media (max-width: 576px) {
+  .header-banner {
+    width: 100vw;
+    height: 44vh;
+    background-image: url("../../assets/images/homepagebanner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .hero-text {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 123.19%;
+    text-align: center;
+    margin-top: 40%;
+    width: 45rem;
+  }
+
+  .img-header-banner {
+    width: 100vw;
+    height: 44vh;
+    background-image: url("../../assets/images/aboutbanner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
