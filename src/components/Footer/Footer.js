@@ -24,7 +24,7 @@ function Footer() {
             </div>
 
             <div class="col-md-4">
-              <div class="link-area pt-5">
+              {/* <div class="link-area pt-5">
                 <h4 className="pb-4">Quick Links</h4>
                 <ul>
                   <li>
@@ -43,7 +43,7 @@ function Footer() {
                     <a href="#"> Registration</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
             <div class="col-md-4">
               <div class="link-area pt-5 ">
