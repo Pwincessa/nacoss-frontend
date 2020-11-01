@@ -1,4 +1,2 @@
 [build]
-  command = "npm run build"
-  publish="nacoss-frontend/build"
-  base = "nacoss-frontend"
+  publish="build"

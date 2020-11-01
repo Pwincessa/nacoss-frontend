@@ -28,19 +28,19 @@ function Footer() {
                 <h4 className="pb-4">Quick Links</h4>
                 <ul>
                   <li>
-                    <a href="#"> About</a>
+                    <a href="/"> About</a>
                   </li>
                   <li>
-                    <a href="#"> Executive members</a>
+                    <a href="/"> Executive members</a>
                   </li>
                   <li>
-                    <a href="#"> Innovation/research</a>
+                    <a href="/"> Innovation/research</a>
                   </li>
                   <li>
-                    <a href="#"> Events</a>
+                    <a href="/"> Events</a>
                   </li>
                   <li className="contact-text">
-                    <a href="#"> Registration</a>
+                    <a href="/"> Registration</a>
                   </li>
                 </ul>
               </div>
