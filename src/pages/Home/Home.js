@@ -5,8 +5,8 @@ import "./Home.css";
 import { cardDetails } from "./data";
 import Button from "../../components/Button/Button";
 import girl1 from "../../assets/images/joyandjokercsc.jpg";
-import girl2 from "../../assets/images/dumebi.jpg";
-import girl3 from "../../assets/images/ekenecsc.jpg";
+import man2 from "../../assets/images/dumebi.jpg";
+import man3 from "../../assets/images/ekenecsc.jpg";
 import man2 from "../../assets/images/zaviano.jpg";
 import long_img from "../../assets/images/dfavours.jpg";
 import quoteImg from "../../assets/images/quoteimg.png";
@@ -77,17 +77,17 @@ const Home = () => {
             <div className="row">
               <div className="col-md-4 col-sm-12 col-xs-12">
                 <div className="box">
-                  <img src={girl1} alt="img" class="img-ht img-fluid " />
+                  <img src={girl1} alt="nacoss students" class="img-ht img-fluid " />
                 </div>
               </div>
               <div className="col-md-4 col-sm-12 col-xs-12 mt-2">
                 <div className="box">
-                  <img src={girl2} alt="img" class="img-ht img-fluid " />
+                  <img src={man3} alt="nacoss students" class="img-ht img-fluid " />
                 </div>
               </div>
               <div className="col-md-4 col-sm-12 col-xs-12 mt-2">
                 <div className="box">
-                  <img src={girl3} alt="img" class="img-ht img-fluid " />
+                  <img src={girl1} alt="nacoss students" class="img-ht img-fluid " />
                 </div>
               </div>
             </div>
@@ -97,12 +97,12 @@ const Home = () => {
             <div className="row">
               <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                 <div className="box">
-                  <img src={long_img} alt="img" class="img-ht img-fluid " />
+                  <img src={long_img} alt="nacoss students" class="img-ht img-fluid " />
                 </div>
               </div>
               <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-2 d-none d-sm-block">
                 <div className="box">
-                  <img src={man2} alt="img" class="img-ht img-fluid " />
+                  <img src={man2} alt="nacoss students" class="img-ht img-fluid " />
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@ const Home = () => {
           <div className="col-lg-12 col-md-12 " id="banner">
             <div id="content">
               <div className="d-flex justify-content-center" id="img-postion">
-                <img src={quoteImg} alt="quote_img" className="img-fluid" />
+                <img src={quoteImg} alt="quote_img akin osayande" className="img-fluid" />
               </div>
               <div className="d-flex justify-content-center">
                 <p class="hero-text text-wrap text-center text-position " id="text-position-1">
