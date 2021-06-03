@@ -5,8 +5,8 @@ import "./Home.css";
 import { cardDetails } from "./data";
 import Button from "../../components/Button/Button";
 import girl1 from "../../assets/images/joyandjokercsc.jpg";
-import man2 from "../../assets/images/dumebi.jpg";
-import man3 from "../../assets/images/ekenecsc.jpg";
+import girl3 from "../../assets/images/dumebi.jpg";
+//import girl2 from "../../assets/images/ekenecsc.jpg";
 import man2 from "../../assets/images/zaviano.jpg";
 import long_img from "../../assets/images/dfavours.jpg";
 import quoteImg from "../../assets/images/quoteimg.png";
@@ -82,7 +82,7 @@ const Home = () => {
               </div>
               <div className="col-md-4 col-sm-12 col-xs-12 mt-2">
                 <div className="box">
-                  <img src={man3} alt="nacoss students" class="img-ht img-fluid " />
+                  <img src={man2} alt="nacoss students" class="img-ht img-fluid " />
                 </div>
               </div>
               <div className="col-md-4 col-sm-12 col-xs-12 mt-2">
@@ -102,7 +102,7 @@ const Home = () => {
               </div>
               <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-2 d-none d-sm-block">
                 <div className="box">
-                  <img src={man2} alt="nacoss students" class="img-ht img-fluid " />
+                  <img src={girl3} alt="nacoss students" class="img-ht img-fluid " />
                 </div>
               </div>
             </div>
