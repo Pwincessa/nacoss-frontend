@@ -5,6 +5,8 @@ import "./Home.css";
 import { cardDetails } from "./data";
 import Button from "../../components/Button/Button";
 import girl1 from "../../assets/images/joyandjokercsc.jpg";
+import girl2 from "../../assets/images/dumebi.jpg";
+import girl3 from "../../assets/images/ekenecsc.jpg";
 import man2 from "../../assets/images/zaviano.jpg";
 import long_img from "../../assets/images/dfavours.jpg";
 import quoteImg from "../../assets/images/quoteimg.png";
@@ -80,12 +82,12 @@ const Home = () => {
               </div>
               <div className="col-md-4 col-sm-12 col-xs-12 mt-2">
                 <div className="box">
-                  <img src={girl1} alt="img" class="img-ht img-fluid " />
+                  <img src={girl2} alt="img" class="img-ht img-fluid " />
                 </div>
               </div>
               <div className="col-md-4 col-sm-12 col-xs-12 mt-2">
                 <div className="box">
-                  <img src={girl1} alt="img" class="img-ht img-fluid " />
+                  <img src={girl3} alt="img" class="img-ht img-fluid " />
                 </div>
               </div>
             </div>
