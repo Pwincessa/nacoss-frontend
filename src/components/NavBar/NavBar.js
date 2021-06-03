@@ -1,12 +1,12 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink} from "react-router-dom";
 import "./NavBar.css";
 import logo from "../..//assets/icons/footerlogo.svg";
 
 const NavBar = () => {
   return (
     <>
-      <nav className="top-navigation navbar navbar-expand-lg navbar-light ">
+      <nav className="top-navigation navbar navbar-expand-lg navbar-light " >
         <img src={logo} alt="nacoss logo" />
         <Link class="navbar-brand" to="#" id="logo-text">
           <h4 id="naccoss_text">
@@ -29,7 +29,7 @@ const NavBar = () => {
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav nav">
             <li class="nav-item active spacing">
-              <NavLink className="nav-link  nav-link-text" activeClassName="current" to="/">
+              <NavLink exact className="nav-link  nav-link-text" activeClassName="current" to="/">
                 HOME
               </NavLink>
             </li>
@@ -39,17 +39,17 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li class="nav-item spacing">
-              <NavLink className="nav-link nav-link-text" activeClassName="current" to="/event">
+              <Link className="nav-link nav-link-text " activeClassName="current" to={{ pathname:"https://www.coursera.org/programs/nacoss-training-nr1me" }}  target="_blank">
+                COURSES
+              </Link>
+            </li>
+            <li class="nav-item spacing">
+              <NavLink className="nav-link nav-link-text disabled" activeClassName="current" to="/event">
                 EVENT
               </NavLink>
             </li>
             <li class="nav-item spacing">
-              <NavLink className="nav-link nav-link-text" activeClassName="current" to="/register">
-                REGISTRATION
-              </NavLink>
-            </li>
-            <li class="nav-item spacing">
-              <NavLink className="nav-link nav-link-text" activeClassName="current" to="/payment">
+              <NavLink className="nav-link nav-link-text disabled" activeClassName="current" to="/payment">
                 PAYMENT
               </NavLink>
             </li>
